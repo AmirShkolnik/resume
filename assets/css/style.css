@@ -339,6 +339,9 @@ footer {
     margin-bottom: 30px;
 }
 
+/* ----------------------------------------map */
+div#map {min-height: 360px;}
+
 /* ----------------------------------------Contact Form */
 
 .contact-heading {
