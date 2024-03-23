@@ -11,8 +11,8 @@ function sendMail() {
       emailjs.send(serviceID, templateID, params)
       .then(res=>{
           document.getElementById("name").value = "";
-          document.getElementById("email").value = "";
-          document.getElementById("message").value = "";
+          document.getElementById("emailaddress").value = "";
+          document.getElementById("projectsummary").value = "";
           console.log(res);
           alert("Your message sent successfully!!")
   
