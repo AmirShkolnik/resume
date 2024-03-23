@@ -1,8 +1,8 @@
 function sendMail() {
     var params = {
       name: document.getElementById("name").value,
-      email: document.getElementById("email").value,
-      message: document.getElementById("message").value,
+      email: document.getElementById("emailaddress").value,
+      message: document.getElementById("projectsummary").value,
     };
   
     const serviceID = "service_ucezivv";
