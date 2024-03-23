@@ -402,7 +402,7 @@ div#map {
 
     .center-form {
         padding-top: 30px;
-        min-height: 240px;
+        min-height: 100px;
         margin: 0 auto;
         max-width: 50%;
     }
